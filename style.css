@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body
+{
+    background-color: #BF3131;
+    font-family: 'Changa', sans-serif;
+}
+.player
+{
+    background-color: #FF9800;
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 10px solid #000;
+    border-bottom:none;
+    border-radius: 60px 80px 0 0;
+    z-index: 1;
+}
+.player::after
+{
+    content: "";
+    position: absolute;
+    width: 92%;
+    height: 85%;
+    background-color: #E9B824;
+    top: 2.5px;
+    left: 6px;
+    border-radius: 58% 70% 28% 42% / 28% 56% 88% 89% ;
+}
+.legs
+{
+    height: 50px; 
+    width: 60px;
+    background-color: #FF9800;
+    position: absolute;
+    bottom: -50px;
+    left: -10px;
+    border: 10px solid #000;
+    border-top: none;
+    border-radius: 0 0 22px 22px;
+    z-index: 1;
+}
+.legs::before
+{
+    content: "";
+    height: 47px; 
+    width: 60px;
+    background-color: #FF9800;
+    position: absolute;
+    right: -100px;
+    border: 10px solid #000;
+    border-top: none;
+    border-radius: 0 0 22px 22px;
+}
+.legs::after
+{
+    content: "";
+    height: 10px;
+    width: 60px;
+    background-color: #000;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    border-radius: 0 0 10px 0 ;
+}
+.back
+{
+    height: 120px;
+    width: 35px;
+    background-color: #FF9800;
+    border: 10px solid #000;
+    position: absolute;
+    left: -45px;
+    top: 65px;
+    border-right: none ;
+    border-radius: 20px 0 0 20px;
+}
+.back::before
+{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 80px ;
+    background-color: #E9B824;
+    bottom: -0.5px;
+    left: -1px;
+    border-radius: 12px 0 0 8px;
+}
+.glass
+{
+    height: 75px;
+    width: 110px;
+    background-color: #BF3131;
+    z-index: 3;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    border-radius: 25px 50px 30px 30px;
+    border: 10px solid #000;
+}
+.glass::before
+{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 65%;
+    background-color: #f33f3f;
+    border-radius: 0 28px 3px 30px ;
+    right: 0;
+    top: 0;
+}
+.glass::after
+{
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 22%;
+    background-color: #faebd7e3;
+    left: 39px ;
+    top: 5px;
+    border-radius: 10px ;
+    transform: rotate(6deg);
+}
+.shadow
+{
+    height: 40px;
+    width: 210px;
+    background-color: #00000027;
+    position: absolute;
+    bottom: -60px;
+    right: -40px;
+    border-radius: 50%;
+    z-index: 0;
+}
+.contact
+{
+    height: 40px;
+    width: 210px;
+    position: absolute;
+    bottom: -60%;
+    right: -40px;
+    text-align: center;
+    color: #FF9800;
+    line-height: 2;
+    text-transform: uppercase;
+    z-index: 0;
+}
+.social a
+{
+    font-size: 20px;
+    color: #FF9800;
+    margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
